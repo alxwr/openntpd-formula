@@ -1,0 +1,10 @@
+Arch:
+  conffile: /etc/ntpd.conf
+
+FreeBSD:
+  conffile: /usr/local/etc/ntpd.conf
+  binary: /usr/local/sbin/ntpd
+
+OpenBSD:
+  service: ntpd
+  conffile: /etc/ntpd.conf

@@ -1,0 +1,7 @@
+---
+openntpd:
+  package: openntpd
+  service: openntpd
+  conffile: /etc/openntpd/ntpd.conf
+  binary: /usr/sbin/ntpd
+  apparmor_enabled: False
